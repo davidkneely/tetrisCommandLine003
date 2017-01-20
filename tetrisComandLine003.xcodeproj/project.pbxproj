@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7782DBB1E288E9F00F23B86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7782DBA1E288E9F00F23B86 /* main.swift */; };
+		A7782DC71E28956A00F23B86 /* CPlusWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7782DC31E28956A00F23B86 /* CPlusWrapper.mm */; };
+		A7782DC81E28956A00F23B86 /* cplusfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7782DC51E28956A00F23B86 /* cplusfunctions.cpp */; };
+		A7782DCE1E2895C200F23B86 /* libtermcap.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7782DC91E2895C200F23B86 /* libtermcap.tbd */; };
+		A7782DCF1E2895C200F23B86 /* libcurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7782DCA1E2895C200F23B86 /* libcurses.tbd */; };
+		A7782DD01E2895C200F23B86 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7782DCB1E2895C200F23B86 /* libstdc++.6.0.9.tbd */; };
+		A7782DD11E2895C200F23B86 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7782DCC1E2895C200F23B86 /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7782DB51E288E9F00F23B86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7782DB71E288E9F00F23B86 /* tetrisComandLine003 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tetrisComandLine003; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7782DBA1E288E9F00F23B86 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7782DC11E28956900F23B86 /* tetrisComandLine003-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tetrisComandLine003-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7782DC21E28956A00F23B86 /* CPlusWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlusWrapper.h; sourceTree = "<group>"; };
+		A7782DC31E28956A00F23B86 /* CPlusWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPlusWrapper.mm; sourceTree = "<group>"; };
+		A7782DC41E28956A00F23B86 /* cplusfunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cplusfunctions.hpp; sourceTree = "<group>"; };
+		A7782DC51E28956A00F23B86 /* cplusfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cplusfunctions.cpp; sourceTree = "<group>"; };
+		A7782DC91E2895C200F23B86 /* libtermcap.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtermcap.tbd; path = usr/lib/libtermcap.tbd; sourceTree = SDKROOT; };
+		A7782DCA1E2895C200F23B86 /* libcurses.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
+		A7782DCB1E2895C200F23B86 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		A7782DCC1E2895C200F23B86 /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7782DB41E288E9F00F23B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7782DD11E2895C200F23B86 /* libstdc++.tbd in Frameworks */,
+				A7782DCE1E2895C200F23B86 /* libtermcap.tbd in Frameworks */,
+				A7782DD01E2895C200F23B86 /* libstdc++.6.0.9.tbd in Frameworks */,
+				A7782DCF1E2895C200F23B86 /* libcurses.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7782DAE1E288E9F00F23B86 = {
+			isa = PBXGroup;
+			children = (
+				A7782DB91E288E9F00F23B86 /* tetrisComandLine003 */,
+				A7782DB81E288E9F00F23B86 /* Products */,
+				A7782DCD1E2895C200F23B86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7782DB81E288E9F00F23B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7782DB71E288E9F00F23B86 /* tetrisComandLine003 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7782DB91E288E9F00F23B86 /* tetrisComandLine003 */ = {
+			isa = PBXGroup;
+			children = (
+				A7782DC21E28956A00F23B86 /* CPlusWrapper.h */,
+				A7782DC31E28956A00F23B86 /* CPlusWrapper.mm */,
+				A7782DC41E28956A00F23B86 /* cplusfunctions.hpp */,
+				A7782DC51E28956A00F23B86 /* cplusfunctions.cpp */,
+				A7782DBA1E288E9F00F23B86 /* main.swift */,
+				A7782DC11E28956900F23B86 /* tetrisComandLine003-Bridging-Header.h */,
+			);
+			path = tetrisComandLine003;
+			sourceTree = "<group>";
+		};
+		A7782DCD1E2895C200F23B86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7782DC91E2895C200F23B86 /* libtermcap.tbd */,
+				A7782DCA1E2895C200F23B86 /* libcurses.tbd */,
+				A7782DCB1E2895C200F23B86 /* libstdc++.6.0.9.tbd */,
+				A7782DCC1E2895C200F23B86 /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			path = /Users/pair/code/ios/tetrisCommandLine/../../../Downloads/testCommandLine;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7782DB61E288E9F00F23B86 /* tetrisComandLine003 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7782DBE1E288E9F00F23B86 /* Build configuration list for PBXNativeTarget "tetrisComandLine003" */;
+			buildPhases = (
+				A7782DB31E288E9F00F23B86 /* Sources */,
+				A7782DB41E288E9F00F23B86 /* Frameworks */,
+				A7782DB51E288E9F00F23B86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tetrisComandLine003;
+			productName = tetrisComandLine003;
+			productReference = A7782DB71E288E9F00F23B86 /* tetrisComandLine003 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7782DAF1E288E9F00F23B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pair;
+				TargetAttributes = {
+					A7782DB61E288E9F00F23B86 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF99BXA3K;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7782DB21E288E9F00F23B86 /* Build configuration list for PBXProject "tetrisComandLine003" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7782DAE1E288E9F00F23B86;
+			productRefGroup = A7782DB81E288E9F00F23B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7782DB61E288E9F00F23B86 /* tetrisComandLine003 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7782DB31E288E9F00F23B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7782DBB1E288E9F00F23B86 /* main.swift in Sources */,
+				A7782DC71E28956A00F23B86 /* CPlusWrapper.mm in Sources */,
+				A7782DC81E28956A00F23B86 /* cplusfunctions.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7782DBC1E288E9F00F23B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7782DBD1E288E9F00F23B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7782DBF1E288E9F00F23B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tetrisComandLine003/tetrisComandLine003-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7782DC01E288E9F00F23B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EPF99BXA3K;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tetrisComandLine003/tetrisComandLine003-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7782DB21E288E9F00F23B86 /* Build configuration list for PBXProject "tetrisComandLine003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7782DBC1E288E9F00F23B86 /* Debug */,
+				A7782DBD1E288E9F00F23B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7782DBE1E288E9F00F23B86 /* Build configuration list for PBXNativeTarget "tetrisComandLine003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7782DBF1E288E9F00F23B86 /* Debug */,
+				A7782DC01E288E9F00F23B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7782DAF1E288E9F00F23B86 /* Project object */;
+}
